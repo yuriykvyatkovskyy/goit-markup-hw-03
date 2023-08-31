@@ -34,40 +34,20 @@ button {
 
 .list {
     list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
 }
 
 .container {
-    max-width: 1188px;
-    padding: 0 15px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFF;
-    /* width: 1440px; */
-}
-
-.page-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--white, #FFF);
-}
-
-.header-container {
-    display: flex;
-    align-items: center; 
 }
 
 .logotype {
@@ -79,8 +59,6 @@ body {
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    margin-right: 76px;
-    margin-left: 156px;
 }
 
 .logotype-studio {
@@ -94,14 +72,6 @@ body {
     text-transform: uppercase;
 }
 
-/* .navigation {
-    display: block;
-} */
-
-/* .menu-list {
-    display: flex;
-    gap: 40px;
-} */
 
 .menu-link {
     color: #2E2F42;
@@ -119,13 +89,9 @@ body {
 
 .address-list {
     font-style: normal;
-    /* margin-right: auto; */
 }
 
-/* .contact-list {
-    display: flex;
-    gap: 40px;
-} */
+
 
 .contact-list-link {
     color: #434455;
