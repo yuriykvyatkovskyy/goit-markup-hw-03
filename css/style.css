@@ -50,6 +50,21 @@ body {
     background-color: #FFFF;
 }
 
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    margin-left: 76px;
+}
+
 .logotype {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -59,6 +74,10 @@ body {
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .logotype-studio {
@@ -72,6 +91,10 @@ body {
     text-transform: uppercase;
 }
 
+.menu-list {
+    display: flex;
+    column-gap: 40px;
+}
 
 .menu-link {
     color: #2E2F42;
@@ -89,9 +112,13 @@ body {
 
 .address-list {
     font-style: normal;
+    margin-left: auto;
 }
 
-
+.contact-list {
+    display: flex;
+    column-gap: 40px;
+}
 
 .contact-list-link {
     color: #434455;
@@ -108,30 +135,77 @@ body {
 
 .title-page {
     background-color: #2E2F42;
+    text-align: center;
+}
+
+.title-page-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .name-page {
+    width: 496px;
     color: #FFF;
-    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     /* 107.143% */
     letter-spacing: 1.12px;
+    padding-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-order-service {
-    background: #4D5AE5;
+    font-family: Roboto;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff
+    color: #ffffff;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .button-order-service:hover,
 .button-order-service:focus {
-    color: var(--accent-color);
-    background-color: var(--accent-color);
+    background: var(--OCEAN, #404BBF);
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.benefits-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.benefits-list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.benefits-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: calc(100% - 3 * 24px / 4);
 }
 
 .benefits-menu-list {
