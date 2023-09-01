@@ -140,15 +140,12 @@ body {
 .title-page {
     background-color: #2E2F42;
     text-align: center;
-}
-
-.title-page-container {
     padding-top: 188px;
     padding-bottom: 188px;
 }
 
 .name-page {
-    width: 496px;
+    max-width: 496px;
     color: #FFF;
     font-size: 56px;
     font-weight: 700;
@@ -167,7 +164,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    display: inline-flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
@@ -201,7 +203,7 @@ body {
 
 .benefits-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .benefits-list-item {
@@ -219,6 +221,7 @@ body {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .benefits-menu-text {
