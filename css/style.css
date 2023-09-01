@@ -367,7 +367,7 @@ body {
 }
 
 .logo-footer {
-    display: inline-flex;
+    display: inline-block;
     height: 24px;
     flex-shrink: 0;
     margin-bottom: 16px;
