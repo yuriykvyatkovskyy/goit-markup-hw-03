@@ -75,10 +75,6 @@ body {
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    display: inline-flex;
-    height: 24px;
-    align-items: center;
-    flex-shrink: 0;
     margin-right: 76px;
 }
 
@@ -99,6 +95,7 @@ body {
 }
 
 .menu-link {
+    display: block;
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -152,7 +149,7 @@ body {
     line-height: 1.07;
     /* 107.143% */
     letter-spacing: 1.12px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -207,10 +204,6 @@ body {
 }
 
 .benefits-list-item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
     width: calc(100% - 3 * 24px / 4);
 }
 
@@ -254,11 +247,6 @@ body {
 }
 
 .employee-card {
-    display: inline-flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -270,10 +258,6 @@ body {
 }
 
 .employee-card-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -318,13 +302,7 @@ body {
 }
 
 .directions-item {
-    display: flex;
-    width: 360px;
-    height: 420px;
-    padding-bottom: 0px;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-shrink: 0;
+    width: calc((100% - 48px) / 3);
 }
 
 .directions-img {
@@ -332,12 +310,7 @@ body {
 }
 
 .directions-card-content {
-    display: flex;
     padding: 32px 16px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    align-self: stretch;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
@@ -404,4 +377,5 @@ body {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
+    width: 264px;
 }
